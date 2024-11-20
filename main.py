@@ -1,26 +1,14 @@
-import random
-
-arraya = []
-for _ in range(10):
-    pole.append(random.randint(0, 100))
-
-print(arraya)
-
+array = [7, 5, 99, 45, 72, 11, 75, 23, 65, 86]
 def bubble_sort(array):
-  n = len(arr)
+    n = len(array)
+    for i in range(n-1):
+        for j in range(0, n-i-1):
+            if array[j] > array[j+1] :
+                array[j], array[j+1] = array[j+1], array[j]   
+            print(array)
+    return array
 
-  for i in range(n):
- 
- in place
-    for j in range(0, n-i-1):
-
-      if arr[j] > arr[j+1] :
-        arr[j], arr[j+1] = arr[j+1], arr[j]   
-
-
-arr = [64, 34, 25, 12, 22, 11, 90]
-
-bubble_sort(arr)
+pringgt(bubble_sort()))
 
 print("Sorted   
  array:")
