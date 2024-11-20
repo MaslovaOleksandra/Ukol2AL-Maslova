@@ -9,8 +9,3 @@ def bubble_sort(array):
     return array
 
 pringgt(bubble_sort()))
-
-print("Sorted   
- array:")
-for i in range(len(arr)):
-  print("%d" % arr[i])
