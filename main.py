@@ -8,4 +8,4 @@ def bubble_sort(array):
             print(array)
     return array
 
-pringgt(bubble_sort()))
+pringgt(bubble_sort())
