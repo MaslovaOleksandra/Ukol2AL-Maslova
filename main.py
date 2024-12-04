@@ -1,4 +1,8 @@
-array = [7, 5, 99, 45, 72, 11, 75, 23, 65, 86]
+import random
+def pole():
+  return [random.randint(0, 100) for _ in range(10)]
+array = pole(10)
+print(array)
 def bubble_sort(array):
     n = len(array)
     for i in range(n-1):
